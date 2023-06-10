@@ -99,7 +99,7 @@ body {
   }
 
   #love-message {
-    inset: 40% 0 0 25%;
+    inset: 50% 0 0 25%;
     font-size: 2rem;
   }
 
@@ -110,7 +110,7 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 35%;
+    bottom: 15%;
     left: 0%;
   }
 
@@ -152,7 +152,7 @@ body {
   }
 
   #love-message {
-    inset: 40% 0 0 25%;
+    inset: 50% 0 0 25%;
     font-size: 2rem;
   }
 
@@ -163,7 +163,7 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 35%;
+    bottom: 15%;
     left: 20%;
   }
 
@@ -216,7 +216,7 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 35%;
+    bottom: 15%;
     left: 30%;
   }
 
@@ -258,7 +258,7 @@ body {
   }
 
   #love-message {
-    inset: 40% 0 0 25%;
+    inset: 50% 0 0 25%;
     font-size: 2rem;
   }
 
@@ -269,7 +269,7 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 35%;
+    bottom: 15%;
     left: 25%;
   }
 
