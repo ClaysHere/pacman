@@ -99,7 +99,7 @@ body {
   }
 
   #love-message {
-    inset: 50% 0 0 25%;
+    inset: 60% 0 0 25%;
     font-size: 2rem;
   }
 
@@ -152,7 +152,7 @@ body {
   }
 
   #love-message {
-    inset: 50% 0 0 25%;
+    inset: 60% 0 0 25%;
     font-size: 2rem;
   }
 
@@ -258,7 +258,7 @@ body {
   }
 
   #love-message {
-    inset: 50% 0 0 25%;
+    inset: 60% 0 0 40%;
     font-size: 2rem;
   }
 
@@ -270,7 +270,7 @@ body {
     align-items: center;
     position: absolute;
     bottom: 15%;
-    left: 25%;
+    left: 40%;
   }
 
   button {
