@@ -99,7 +99,8 @@ body {
   }
 
   #love-message {
-    inset: 0 0 0 20%;
+    top: 0;
+    left: 0;
     font-size: 2rem;
   }
 
@@ -152,7 +153,8 @@ body {
   }
 
   #love-message {
-    inset: 0 0 0 20%;
+    top: 0;
+    left: 0;
     font-size: 2rem;
   }
 
@@ -205,7 +207,8 @@ body {
   }
 
   #love-message {
-    inset: 0 0 0 20%;
+    top: 0;
+    left: 0;
     font-size: 2rem;
   }
 
@@ -258,7 +261,8 @@ body {
   }
 
   #love-message {
-    inset: 0 0 0 20%;
+    top: 0;
+    left: 0;
     font-size: 2rem;
   }
 
