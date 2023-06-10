@@ -74,7 +74,7 @@ body {
   display: none;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   #game {
     width: 100px;
     height: 100px;
@@ -99,7 +99,60 @@ body {
   }
 
   #love-message {
-    inset: 60% 0 0 25%;
+    inset: 3% 0 0 40%;
+    font-size: 2rem;
+  }
+
+  #button {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 35%;
+    left: 20%;
+  }
+
+  button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .middle {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+}
+
+@media (max-width: 425px) {
+  #game {
+    width: 100px;
+    height: 100px;
+  }
+
+  .pac-man {
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 70px;
+  }
+
+  .eye {
+    display: none;
+  }
+
+  .target {
+    width: 100px;
+    height: 100px;
+    font-size: 1.5rem;
+    top: 208px;
+  }
+
+  #love-message {
+    inset: 50% 0 0 25%;
     font-size: 2rem;
   }
 
@@ -111,7 +164,7 @@ body {
     align-items: center;
     position: absolute;
     bottom: 15%;
-    left: 0%;
+    left: 25%;
   }
 
   button {
@@ -163,7 +216,7 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 15%;
+    bottom: 10%;
     left: 20%;
   }
 
@@ -180,7 +233,7 @@ body {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 320px) {
   #game {
     width: 100px;
     height: 100px;
@@ -205,7 +258,7 @@ body {
   }
 
   #love-message {
-    inset: 40% 0 0 30%;
+    inset: 60% 0 0 25%;
     font-size: 2rem;
   }
 
@@ -216,61 +269,8 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 15%;
-    left: 30%;
-  }
-
-  button {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-  }
-
-  .middle {
-    display: flex;
-    justify-content: space-between;
-    width: 70%;
-  }
-}
-
-@media (max-width: 768px) {
-  #game {
-    width: 100px;
-    height: 100px;
-  }
-
-  .pac-man {
-    width: 100px;
-    height: 100px;
-    top: 0;
-    left: 70px;
-  }
-
-  .eye {
-    display: none;
-  }
-
-  .target {
-    width: 100px;
-    height: 100px;
-    font-size: 1.5rem;
-    top: 208px;
-  }
-
-  #love-message {
-    inset: 60% 0 0 40%;
-    font-size: 2rem;
-  }
-
-  #button {
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 15%;
-    left: 40%;
+    bottom: 5%;
+    left: 20%;
   }
 
   button {
